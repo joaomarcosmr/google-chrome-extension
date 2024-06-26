@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taxa de Câmbio do Dólar</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Taxa de Câmbio do Dólar</h1>
+      <div id="rate" class="rate">
+        R$ <span id="dollar-rate" class="loading"> Carregando...</span>
+      </div>
+      <div>
+        <input
+          type="number"
+          id="amount"
+          placeholder="Digite o valor em USD"
+          step="0.01"
+        />
+        <button id="converterButton">Converter</button>
+      </div>
+    </div>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

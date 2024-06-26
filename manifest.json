@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Taxa de Câmbio do Dólar",
+  "version": "1.0",
+  "description": "Veja a taxa de câmbio do dólar em tempo real.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
